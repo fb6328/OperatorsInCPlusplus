@@ -10,19 +10,8 @@ int main()
     // foreach loop to iterate over the array
     for (int value : arrayNumbers)
     {
-        cout << value << " ";
+        cout << value << ",";
     }
     cout << endl;
-
-    // Declare and initialize a string variable
-    string stringText = "Hello";
-
-    // foreach loop to iterate over the string and split the string
-    for (char ch : stringText)
-    {
-        cout << ch << " ";
-    }
-    cout << endl;
-
     return 0;
 }
