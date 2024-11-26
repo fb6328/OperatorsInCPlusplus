@@ -25,26 +25,26 @@ int main()
     // Modulus operator '%'
     cout << "Modulus of " << num1 << " % " << num2 << " = " << num1 % num2 << endl;
     // Increment operator '++' as a prefix
-    cout << "Prefix Increment num1 by 1 :" << ++num1 << endl;
+    cout << "Prefix Increment " << num1 << " by 1 :" << ++num1 << endl;
     // Increment operator '++' as a postfix
-    cout << "Postfix Increment num1 by 1 :" << num1++ << endl;
+    cout << "Postfix Increment" << num2 << " by 1 :" << num2++ << endl;
     // Decrement operator '--' as a prefix
-    cout << "Prefix Decrement num1 by 1 :" << --num1 << endl;
+    cout << "Prefix Decrement" << num1 << "by 1 :" << --num1 << endl;
     // Decrement operator '--' as a postfix
-    cout << "Postfix Decrement num1 by 1 :" << num1-- << endl;
+    cout << "Postfix Decrement " << num2 << " by 1 :" << num2-- << endl;
     // Increment and assign operation e.g. increase num1 by 3
     num1 += 3; // This is the same as num1 = num1+3;
     cout << "Increment and assign num1 by 3 :" << num1 << endl;
 
     //****COMPARISON OPERATORS****
     // Greater than operator '>'
-    cout << num1 << " greater than " << num2 << " = " << (bool)(num1 > num2) << endl;
+    cout << num1 << " greater than " << num2 << " = " << (num1 > num2) << endl;
     // Less than operator '<'
-    cout << num1 << " less than " << num2 << " = " << (bool)(num1 < num2) << endl;
+    cout << num1 << " less than " << num2 << " = " << (num1 < num2) << endl;
     // Equal to operator '=='
-    cout << num1 << " equal to " << num2 << " = " << (bool)(num1 == num2) << endl;
+    cout << num1 << " equal to " << num2 << " = " << (num1 == num2) << endl;
     // Not equal to operator '!='
-    cout << num1 << " not equal to " << num2 << " = " << (bool)(num1 != num2) << endl;
+    cout << num1 << " not equal to " << num2 << " = " << (num1 != num2) << endl;
 
     //****BOOLEAN OPERATORS****
     // Boolean operator '&&'
@@ -55,14 +55,14 @@ int main()
     cout << " ! " << boolVar1 << "=" << (!boolVar1) << endl;
 
     //***POINTER OPERATIONS */
-    // Declare a pointer
+    // Declare a null pointer
     int *ptr = nullptr;
     // Assign a value to the pointer
     ptr = &num1;
     // Output addressof num1
-    cout << "Address of num1 = " << &num1 << endl;
+    cout << "Address of " << num1 << " = " << &num1 << endl;
     // Dereference the pointer to get the value at the memory location
-    cout << "Value at memory location pointed by ptr = " << *ptr << endl;
+    cout << "Value at memory location pointed by" << ptr << " = " << *ptr << endl;
 
     return 0;
 }
